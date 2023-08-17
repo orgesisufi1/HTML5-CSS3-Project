@@ -1,0 +1,237 @@
+@media screen and (max-width: 767px) {
+
+    /* Header */
+
+    .logo a{
+        font-size: 100% !important;
+    }
+
+    .header a{
+        font-size: 80%;
+    }
+    
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav ul {
+        list-style-type: none;
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    /* Main */
+    
+    .main{
+        height: 500px;
+        background-size: cover;
+    }
+
+    .main-container{
+        box-sizing: border-box;
+        width: 90%;
+        margin: 0 auto;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-container{
+        min-width: fit-content;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .submit{
+        padding: 5px 10px;
+        margin-top: 20px;
+        border: 1px solid var(--text-color);
+        border-radius: 5px;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        font-size: 20px;
+    }
+
+    .submit-btn{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .submit:hover{
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+
+    .underline{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid var(--text-color);
+        border-right: 1px solid var(--text-color);
+        border-left: 1px solid var(--text-color);
+    }
+    /* Cards */
+
+    .card-section{
+       height: fit-content;
+       padding: 20px 0px;
+    }
+
+    .holder-cc h1{
+        padding: 30px;
+    }
+    
+    .card a{
+        text-decoration: none;
+        color: var(--text-color);
+    }
+    
+    .card a span{
+        font-weight: 400;
+    }
+    .card-section{
+        margin-top: 0px;
+        background-color: var(--bg-color);
+    }
+    
+    .card-section h1{
+        text-align: center;
+        margin: 0px;
+        font-size: 30px;
+    }
+    
+    .elementor{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    
+    .card-container{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    
+    }
+
+    /* Cars */
+
+    .cars-conatiner{
+        display: block;
+    
+    }
+
+    .cars-conatiner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    
+    }
+    
+    .car-card{
+        padding: 10px;
+        margin: 10px;
+        width: 90%;
+        text-align: center;
+    }
+    
+    .cars h1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .card img{
+        width: 90%;
+        object-position: center;
+        object-fit: cover;
+        
+    }
+    .car-card img{
+        width: 100%;
+    }
+
+    /* Costumer */
+
+    .customer-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    
+    .customer{
+        height: fit-content;
+        text-align: center;
+
+    }
+
+    /* -------- */
+
+    /* Airports */
+
+    .airports{
+        height: fit-content;
+    }
+    
+    .air-container{
+        align-items: flex-end;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    
+    .air-card a{
+        padding: 10px;
+    }
+    /* --------- */
+
+    /* Partners */
+    .find-us{
+        height: fit-content;
+    }
+    
+    .find-container{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        gap: 20px;
+        height: fit-content;
+    }
+    
+    .find-card{
+        text-align: center;
+    }
+
+    /* -------- */
+
+    /* Footer */
+
+    .footer{
+        height: fit-content;
+        background-color: var(--text-color-2);
+    }
+    
+    .f-container{
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .footer a{
+        margin-bottom: 10px;
+        display: block;
+    }
+
+}

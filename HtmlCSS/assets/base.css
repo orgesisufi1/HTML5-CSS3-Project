@@ -1,0 +1,306 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100;200;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+/* font-family: 'REM', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* --------------------------- */
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+:root{
+    --bg-color: #f4f3f3;
+    --text-color: #068FFF;
+    --text-color-2: #000000;
+}
+
+/* Header */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'REM', sans-serif;
+}
+
+.header{
+    background-color: var(--bg-color);
+    padding: 20px;
+}
+
+.container{
+    max-width: 90%p;
+    margin: 0 auto;
+}
+
+.nav ul li{
+    list-style-type: none;
+}
+
+.container a{
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container a:hover{
+    color: var(--text-color-2);
+}
+
+.container a.active{
+    color: var(--text-color-2);
+}
+
+.main{
+    margin-top: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/car-medium.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* -------- */
+
+
+/* Main */
+
+.main-container{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-container{
+    background-color: var(--bg-color);
+    width: 100%;
+    padding: 20px;
+}
+
+input[type="date"],
+input[type="time"]{
+    border: 0px solid var(--text-color);
+    font-family: 'REM', sans-serif;
+    color: var(--text-color);
+    font-size: 14px;
+
+}
+
+div option,
+div select{
+    color: var(--text-color);
+}
+
+
+div input,
+div select{
+    margin: 10px;
+    box-shadow: none;
+    border: 0px;
+    background-color: var(--bg-color);
+}
+
+div input:focus{
+    outline: none;
+}
+
+.underline{
+    border-bottom: 1px solid var(--text-color);
+}
+
+div label{
+    margin: 10px;
+    color: var(--text-color);
+}
+
+.submit{
+    margin-top: 30px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit:hover{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* ------- */
+
+
+/* Card */
+
+.card-section{
+    margin-top: 0px;
+    height: 400px;
+
+}
+
+.holder{
+    padding: 20px;
+}
+
+.card{
+    text-align: center;
+}
+
+.card img{
+    width: 10%px;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+h1{
+    text-align: center;
+    color: var(--text-color);
+}
+
+.holder h1{
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 40px !important;
+}
+
+section{
+    display: block;
+}
+
+.card a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* --------- */
+
+/* Cars */
+
+.car-card img{
+    width: 250px;
+    height: 250px;
+}
+
+.cars img{
+    width: 50%;
+    height: 250px;
+}
+
+.card a:hover{
+    color: var(--text-color-2);
+    transition: all 0.3s ease-in-out;
+}
+
+.card a:hover span{
+    color: orange;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+/* ------------- */
+
+/* Customers */
+
+.customers{
+    background-color: var(--bg-color);
+    padding: 20px;
+}
+
+.customer{
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+}
+
+.customers h1{
+    text-align: center;
+}
+
+.customer h4{
+    text-align: center;
+}
+
+.card img{
+    width: 90%;
+    object-position: center;
+    object-fit: cover;
+    
+}
+.car-card img{
+    width: 80%;
+}
+
+/* ---------- */
+
+/* Airports */
+
+.air-card a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.air-card a{
+    display: block;
+}
+
+.airp{
+    width: fit-content;
+}
+
+.airp:hover{
+    color: var(--text-color-2);
+    transition: all 0.3s ease-in-out;
+}
+
+.air-card h3{
+    width: 90%;
+    color: var(--text-color-2);
+    margin-left: 10px;
+}
+
+
+/* ----------- */
+/* Achievements */
+.find-card img{
+    height: 61px;
+    width: 70px;
+}
+
+.find-us{
+    background-color: var(--bg-color);
+    padding: 20px;
+}
+
+/* ---------- */
+
+/* Footer */
+.footer{
+    color: var(--text-color);
+    margin: 0px;
+}
+
+.footer p,
+.footer a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.footer p:hover,
+.footer a:hover{
+    color: var(--bg-color);
+    transition: all 0.3s ease-in-out;
+}
+
+/* ------------- */
