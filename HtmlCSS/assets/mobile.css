@@ -45,7 +45,7 @@
     }
     
     .form-container{
-        min-width: fit-content;
+        width: fit-content;
         padding: 0px;
         display: flex;
         align-items: center;
