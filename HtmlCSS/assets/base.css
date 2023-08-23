@@ -98,6 +98,10 @@ div select{
     color: var(--text-color);
 }
 
+div input::placeholder{
+    color: var(--text-color);
+}
+
 
 div input,
 div select{
