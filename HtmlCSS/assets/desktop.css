@@ -123,6 +123,7 @@ div label{
 
 .special-input{
     display: inline-block;
+    margin-top: 8px;
 }
 
 .special-input input{
